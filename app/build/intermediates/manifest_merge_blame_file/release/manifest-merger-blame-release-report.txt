@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sw.radarsign"
+4    android:versionCode="1"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml
+10
+11    <!-- SDCard中创建与删除文件权限 -->
+12    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+12-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:7:5-84
+12-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:7:22-81
+13    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+13-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:8:5-9:47
+13-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:8:22-81
+14    <!-- 向SDCard写入数据权限 -->
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:11:5-81
+15-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:11:22-78
+16    <!-- 向SDCard读出数据权限 -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:13:5-80
+17-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:13:22-77
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:14:5-67
+18-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:14:22-64
+19
+20    <application
+20-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:15:5-29:19
+21        android:allowBackup="true"
+21-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:16:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\John\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:17:9-43
+24        android:label="@string/app_name"
+24-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:18:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:19:9-54
+26        android:supportsRtl="true"
+26-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:20:9-35
+27        android:theme="@style/AppTheme" >
+27-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:21:9-40
+28        <activity android:name="com.sw.radarsign.MainActivity" >
+28-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:22:9-28:20
+28-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:22:19-47
+29            <intent-filter>
+29-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:23:13-27:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:24:17-69
+30-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:24:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:26:17-77
+32-->E:\Android\SW\RadarSign\app\src\main\AndroidManifest.xml:26:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
